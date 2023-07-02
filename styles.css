@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .search-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .search-form h2 {
+    text-align: center;
+  }
+  
+  .search-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-form label {
+    margin-bottom: 5px;
+  }
+  
+  .search-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .search-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .candidates-list {
+    margin: 20px;
+  }
+  
+  .candidates-list h2 {
+    text-align: center;
+  }
+  
+  .candidates-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .candidates-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  

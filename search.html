@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find Candidates</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-form">
+      <h2>Find Candidates</h2>
+      <form id="searchForm">
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" placeholder="Enter location">
+        <label for="jobRole">Job Role</label>
+        <input type="text" id="jobRole" name="jobRole" placeholder="Enter job role">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="candidates-list">
+      <h2>Candidates List</h2>
+      <ul id="candidates">
+        <!-- Fetched candidates will be dynamically added here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
